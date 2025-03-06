@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from './Slider';
-import Container from './Container';
+// import Container from './Container';
 import styles from '@/styles/home/Hero.module.css';
 export default function HeroSection() {
   return (
