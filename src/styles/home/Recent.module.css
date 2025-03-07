@@ -1,0 +1,12 @@
+.recentSection {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+.textcenter{
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .recentSection {
+    padding: 30px 0;
+  }
+}

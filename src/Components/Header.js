@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '@/styles/header.module.css';
 import Container from './Container';
 import { FiSearch, FiShoppingCart } from 'react-icons/fi';
-
+import Link from 'next/link';
 export default function Header() {
   return (
     <header className={`${styles.header}`}>
@@ -26,8 +26,8 @@ const NavBar = () => {
   return (
     <nav className={styles.navBar}>
       <ul className={styles.navList}>
-        <li className={styles.navLink}>Home</li>
-        <li className={styles.navLink}>Store</li>
+        <li className={styles.navLink}><Link href={"/"}>Home</Link></li>
+        <li className={styles.navLink}><Link href={"/store"}>Store</Link></li>
       </ul>
       <div className={styles.cartContainer}>
         <FiShoppingCart className={styles.cartIcon} />
